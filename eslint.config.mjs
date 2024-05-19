@@ -13,14 +13,14 @@ export default [
       'prefer-const': 'error',
       // "no-console": "error",
     },
-    globals: {
-      process: 'readonly',
-    },
-    extends: [
-      'eslint:recommended',
-      'plugin:@typescript-eslint/recommended',
-      'prettier',
-    ],
+    // globals: {
+    //   process: 'readonly',
+    // },
+    // extends: [
+    //   'eslint:recommended',
+    //   'plugin:@typescript-eslint/recommended',
+    //   'prettier',
+    // ],
   },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
